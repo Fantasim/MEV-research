@@ -1,0 +1,37 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.21.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "scripts": {
+    "clean": "rm -rf cache artifacts typechain typechain-types",
+    "network": "sh ./sh/network.sh",
+    "deploy": "npx hardhat run deploy/deploy.ts"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.6",
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.10",
+    "@nomicfoundation/hardhat-verify": "^2.0.4",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/": "uniswap/v3-core",
+    "@types/bignumber.js": "^5.0.0",
+    "@types/chai": "^4.3.12",
+    "@types/mocha": "^10.0.6",
+    "@uniswap/v3-core": "^1.0.1",
+    "@uniswap/v3-periphery": "^1.4.4",
+    "@uniswap/v3-sdk": "^3.11.0",
+    "bignumber.js": "^9.1.2",
+    "chai": "^4.3.7",
+    "ethers": "^5.7.2",
+    "hardhat-gas-reporter": "^1.0.10",
+    "solidity-coverage": "^0.8.11",
+    "typechain": "^8.3.2"
+  }
+}
