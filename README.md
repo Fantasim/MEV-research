@@ -1,4 +1,4 @@
-# MEV Research Project
+# MEV Research Project (Feb - Apr 2024)
 
 A comprehensive exploration of Maximal Extractable Value (MEV) opportunities through hands-on implementation and real-world testing, ultimately revealing why individual MEV extraction has become economically unfeasible in today's competitive landscape.
 
